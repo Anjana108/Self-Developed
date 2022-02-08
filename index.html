@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+    <script src= "./lib/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./lib/sweetalert.css" />
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+        const firebaseConfig = {
+  apiKey: "AIzaSyCIBua0jyK0wayfaWgk2fmOxHlnhObMfAc",
+  authDomain: "wolf-vs-sheep.firebaseapp.com",
+  databaseURL: "https://wolf-vs-sheep-default-rtdb.firebaseio.com",
+  projectId: "wolf-vs-sheep",
+  storageBucket: "wolf-vs-sheep.appspot.com",
+  messagingSenderId: "558134395756",
+  appId: "1:558134395756:web:fc2605318f248ef18c2949"
+};
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+    <meta charset="UTF-8">
+    
+</head>
+<body>
+    <script src = "./lib/matter.min.js"></script>
+    <script src = "sketch.js"></script>
+    <script src = "./js/form.js"></script>
+    <script src = "./js/game.js"></script>
+    <script src = "./js/player.js"></script>
+</body>
+</html>
